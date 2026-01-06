@@ -1,4 +1,33 @@
-venv/
+# Byte-compiled / cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data outputs
+data/
+*.npz
+*.npy
+*.labels.npy
+
+# Python logs
+*.log
+
+# macOS
 .DS_Store

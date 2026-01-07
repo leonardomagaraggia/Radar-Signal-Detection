@@ -2,22 +2,24 @@
 simulation:
   fs: 8000               # frequenza di campionamento (Hz)
   duration: 1.0          # durata del segnale (s)
-  waveform: "chirp"      # "chirp" o "sine"
+  waveform: "chirp" #"sine"      # "chirp" o "sine"
   f0: 300.0              # frequenza iniziale per chirp / frequenza per sine (Hz)
   f1: 1200.0             # frequenza finale per chirp (Hz)
   amplitude: 1.0
 
 dataset:
-  n_signals: 500         # numero di segnali da generare
+  n_signals: 2000 #500         # numero di segnali da generare
   min_targets: 0         # min numero di target per esempio
-  max_targets: 2         # max numero di target per esempio
+  max_targets: 4         # max numero di target per esempio
 
 targets:
   doppler_range: [-50, 50]   # range Doppler in Hz
   amplitude_range: [0.2, 1.0]
 
 noise:
-  snr_db_list: [0, 5, 10, 15, 20]  # livelli SNR (dB) da usare
+  #snr_db_list: [0, 5, 10, 15, 20]  
+  # livelli SNR (dB) da usare
+  snr_db_list: [0, 2, 5, 7, 10, 12, 15, 18, 20]
 
 output:
   out_dir: "data/"

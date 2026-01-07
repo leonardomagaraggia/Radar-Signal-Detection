@@ -53,6 +53,12 @@ def generate_example(cfg, t, base_s):
         amp = float(np.random.uniform(amp_min, amp_max))
         signal = apply_target(signal, t, dop, amp)
         metadata_targets.append({"doppler_hz": dop, "amplitude": amp})
+
+    # Aggiungi rumore di fondo casuale extra
+    extra_noise = 0.02 * np.random.randn(*signal.shape)
+    signal += extra_noise
+
+
     return signal, metadata_targets
 
 def generate_dataset(cfg):

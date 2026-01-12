@@ -4,10 +4,9 @@
 [![Radar Signal Processing](https://img.shields.io/badge/domain-radar%20signal%20processing-success)](#)
 [![Machine Learning](https://img.shields.io/badge/focus-classical%20ML-brightgreen)](#)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)](https://scikit-learn.org/)
-[![Project Status](https://img.shields.io/badge/status-complete-success)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**End-to-end radar signal processing and classical machine learning for target detection in noisy environments
+End-to-end radar signal processing and classical machine learning for target detection in noisy environments
 
 
 ## Context
@@ -205,7 +204,7 @@ The project includes an elegant comparative plot for Baseline vs SVM for Chirp a
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the **MIT License**. See the `LICENSE` file for more information.
 

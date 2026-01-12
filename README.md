@@ -45,7 +45,7 @@ radar-signal-detection/
 1. Clone the repository:
 
 ```
-git clone <URL_REPO>
+git clone https://github.com/leonardomagaraggia/Radar-Signal-Detection
 cd radar-signal-detection
 ```
 

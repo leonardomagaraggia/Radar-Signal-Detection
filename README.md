@@ -1,9 +1,19 @@
 # Radar Signal Detection & Classification under Noise
 
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![Radar Signal Processing](https://img.shields.io/badge/domain-radar%20signal%20processing-success)](#)
+[![Machine Learning](https://img.shields.io/badge/focus-classical%20ML-brightgreen)](#)
+[![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)](https://scikit-learn.org/)
+[![Project Status](https://img.shields.io/badge/status-complete-success)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**End-to-end radar signal processing and classical machine learning for target detection in noisy environments
+
+
 ## Context
 
 This project simulates a simplified radar system for detecting and classifying targets in noisy signals.  
-The goal is to build a complete pipeline: **signal simulation → feature extraction → classification → robustness analysis**, with clean, modular, and professional code.
+The goal is to build a complete pipeline: **signal simulation → feature extraction → classification → robustness analysis**
 
 The project avoids:
 - complex 3D tracking
@@ -192,3 +202,14 @@ The project includes an elegant comparative plot for Baseline vs SVM for Chirp a
 - Add signals with closer Doppler values to increase difficulty.  
 - Explore additional features: skewness, kurtosis, peak ratios.  
 - Interactive comparative plots for faster analysis.
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See the `LICENSE` file for more information.
+
+---
+
+**Developed by:** Leonardo Magaraggia
+**GitHub:** [@leonardomagaraggia](https://github.com/leonardomagaraggia)

@@ -12,7 +12,6 @@ End-to-end radar signal processing and classical machine learning for target det
 ## Context
 
 This project simulates a simplified radar system for detecting and classifying targets in noisy signals.  
-The goal is to build a complete pipeline: **signal simulation → feature extraction → classification → robustness analysis**
 
 The project avoids:
 - complex 3D tracking
@@ -211,4 +210,3 @@ Distributed under the **MIT License**. See the `LICENSE` file for more informati
 ---
 
 **Developed by:** Leonardo Magaraggia
-**GitHub:** [@leonardomagaraggia](https://github.com/leonardomagaraggia)
